@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-image: linear-gradient(rgba(0,10,30,0.7), rgba(0,10,30,0.7)), url(../HTML/images/m70.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.form-box{
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 50px 60px 70px;
+    text-align: center;
+    border-radius: 50px;
+    opacity: 78%;
+}
+.form-box h1::after{
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: #2CB0B2;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.form-box h1{
+    font-size: 40px;
+    margin-bottom: 60px;
+    color: #2CB0B2;
+    position: relative;
+}
+.input-field{
+    background: #eaeaea;
+    margin: 15px 0;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+    color: black;
+}
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 6px;
+}
+
+.input-field i{
+    margin-left: 15px;
+    color: black;
+}
+.form p{
+    text-align: left;
+    font-size: 13px;
+}
+.form p a{
+    text-decoration: none;
+    color: #3c00a0;
+}
+
+.btn-field button{
+    flex-basis: 48%;
+    background: #3c00a0;
+    color: #fff;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+}
+
+.btn-field{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.input-group{
+    height: 280px;
+}
+.btn-field button.disable{
+    background: #eaeaea;
+    color: #555;
+}
+.object-size{
+    width: 55px;
+    margin-left: 4%;
+    margin-top: 2.5%;
+
+}
+.btn{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-left: 80%;
+    margin-top: 0%;
+}

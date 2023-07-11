@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bmw4.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>4 Series</title>
+</head>
+<body>
+    <div class="header" id="header">
+        <nav>
+            <a href="home.html"><img src="../HTML/images/BMW_logo_(gray).svg.png" class="logo"></a>
+            <ul>
+                <li><a href="#" id="4gc">4 Gran Coupe</a></li>
+                <li><a href="#" id="4cab">4 Convertible</a></li>
+                <li><a href="#" id="m4">M4</a></li>
+                <li><a href="#" id="m4cab">M4 Convertible</a></li>
+                <li><a href="#" id="m4csl">M4 CSL</a></li>
+            </ul>
+            <a href="models.html" class="btn">Go Back</a>
+        </nav>
+        <div class="info">
+            <div>
+                <h2 id="hun">5.5 s</h2>
+                <p>100 km/h</p>
+            </div>
+            <div>
+                <h2 id="Max">254 km/h</h2>
+                <p>Top Speed</p>
+            </div>
+            <div>
+                <h2 id="range">812 km</h2>
+                <p>Max Range</p>
+            </div>
+            <div class="line"></div>
+            <div>
+                <h2 id="model">4 Gran Coupe</h2>
+            </div>
+
+        </div>
+    </div>
+    <script>
+
+        var header = document.getElementById("header");
+        var ms = document.getElementById("4gc");
+        var m3 = document.getElementById("4cab");
+        var mx = document.getElementById("m4");
+        var my = document.getElementById("m4cab");
+        var mz = document.getElementById("m4csl");
+        var model = document.getElementById("model");
+        var range = document.getElementById("range");
+        var hun = document.getElementById("hun");
+        var Max = document.getElementById("Max");
+        
+
+        ms.onclick = function(){
+            header.style.backgroundImage = "url(../HTML/images/4granc.jpg)"
+            model.innerHTML = "4 Gran Coupe"
+            header.style.backgroundImage = "url(../HTML/images/4granc.jpg)"
+            range.innerHTML = "812 km"
+            header.style.backgroundImage = "url(../HTML/images/4granc.jpg)"
+            hun.innerHTML = "5.5 s"
+            header.style.backgroundImage = "url(../HTML/images/4granc.jpg)"
+            Max.innerHTML = "254 km/h"
+            
+        }
+        m3.onclick = function(){
+            header.style.backgroundImage = "url(../HTML/images/4cabi.jpg)"
+            model.innerHTML = "4 Series Cabrio"
+            header.style.backgroundImage = "url(../HTML/images/4cabi.jpg)"
+            range.innerHTML = "812 km"
+            header.style.backgroundImage = "url(../HTML/images/4cabi.jpg)"
+            hun.innerHTML = "5.4 s"
+            header.style.backgroundImage = "url(../HTML/images/4cabi.jpg)"
+            Max.innerHTML = "254 km/h"
+
+        }
+        mx.onclick = function(){
+            header.style.backgroundImage = "url(../HTML/images/m4page.jpg)"
+            model.innerHTML = "M4 "
+            header.style.backgroundImage = "url(../HTML/images/m4page.jpg)"
+            range.innerHTML = "432 km"
+            header.style.backgroundImage = "url(../HTML/images/m4page.jpg)"
+            hun.innerHTML = "2.9 s"
+            header.style.backgroundImage = "url(../HTML/images/m4page.jpg)"
+            Max.innerHTML = "344 km/h"
+
+
+        }
+        my.onclick = function(){
+            header.style.backgroundImage = "url(../HTML/images/m4ct.jpg)"
+            model.innerHTML = "M4 Cabrio"
+            header.style.backgroundImage = "url(../HTML/images/m4ct.jpg)"
+            range.innerHTML = "453 km"
+            header.style.backgroundImage = "url(../HTML/images/m4ct.jpg)"
+            hun.innerHTML = "2.7 s"
+            header.style.backgroundImage = "url(../HTML/images/m4ct.jpg)"
+            Max.innerHTML = "365 km/h"
+
+        }
+        mz.onclick = function(){
+            header.style.backgroundImage = "url(../HTML/images/m4cc.jpg)"
+            model.innerHTML = "M4 CSL"
+            header.style.backgroundImage = "url(../HTML/images/m4cc.jpg)"
+            range.innerHTML = "313 km"
+            header.style.backgroundImage = "url(../HTML/images/m4cc.jpg)"
+            hun.innerHTML = "2.2 s"
+            header.style.backgroundImage = "url(../HTML/images/m4cc.jpg)"
+            Max.innerHTML = "380 km/h"
+        }
+
+
+    
+    </script>
+    
+</body>
+</html>

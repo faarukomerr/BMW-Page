@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+.background{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) ,url('../HTML/images/far.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150%;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+    vertical-align: top;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #F93E3E;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+}
+.object-size{
+    width: 55px;
+
+}
+.row{
+    padding-right: 23px;
+    padding-left: 23px;
+    margin-top: 0%;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.model1{
+    flex-basis: 31%;
+    background-image: url(../HTML/images/1seri.png);
+    background-size: contain;
+    background-position: center;
+    border-radius: 10px;
+    padding: 25px 10px;
+    box-sizing: border-box;
+    transition: 0.8s;
+    max-width: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    
+
+}
+.model1 h2{
+    padding-left: 20px;
+    padding-top: 0px;
+
+}
+.model1:hover{
+    transform: translateY(-40px);
+}
+.model1 h2 a{
+    text-decoration: none;
+}
+.model2{
+    flex-basis: 31%;
+    background-image: url(../HTML/images/2seri.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    padding: 25px 10px;
+    box-sizing: border-box;
+    transition: 0.8s;
+    height: 250px;
+    max-width: 100%;
+
+}
+.model2 h2{
+    padding-left: 20px;
+    padding-top: 0px;
+
+}
+.model2 h2 a{
+    text-decoration: none;
+}
+.model2:hover{
+    transform: translateY(-40px);
+}
+.model3{
+    flex-basis: 31%;
+    background-image: url(../HTML/images/3kap.png);
+    background-size: contain;
+    background-position: center;
+    border-radius: 10px;
+    padding: 25px 10px;
+    box-sizing: border-box;
+    transition: 0.8s;
+    height: 250px;
+    max-width: 100%;
+    background-repeat: no-repeat;
+}
+.model3 h2 a{
+    text-decoration: none;
+    padding-left: 20px;
+    padding-top: 0px;
+
+}
+.model3:hover{
+    transform: translateY(-40px);
+}
+.below-row{
+    padding-left: 28px;
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.model4{
+    flex-basis: 31%;
+    background-image: url(../HTML/images/4seri.png);
+    background-size: contain;
+    background-position: center;
+    border-radius: 10px;
+    padding: 25px 10px;
+    box-sizing: border-box;
+    transition: 0.8s;
+    height: 250px;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+.model4 h2{
+    padding-left: 20px;
+    padding-top: 0px;
+
+}
+.model4:hover{
+    transform: translateY(-40px);
+}
+.model4 h2 a{
+    text-decoration: none;
+}
+.model5{
+    flex-basis: 31%;
+    background-image: url(../HTML/images/5seri.png);
+    background-size: contain;
+    background-position: center;
+    border-radius: 10px;
+    padding: 25px 10px;
+    box-sizing: border-box;
+    transition: 0.8s;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 250px;
+
+}
+.model5 h2{
+    padding-left: 20px;
+    padding-top: 0px;
+
+}
+.model5 h2 a{
+    text-decoration: none;
+}
+.model5:hover{
+    transform: translateY(-40px);
+}
+.model6{
+    flex-basis: 31%;
+    background-image: url(../HTML/images/6seri.png);
+    background-size: contain;
+    background-position: center;
+    border-radius: 10px;
+    padding: 25px 10px;
+    box-sizing: border-box;
+    transition: 0.8s;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 250px;
+}
+.model6 h2{
+    padding-left: 20px;
+    padding-top: 0px;
+}
+.model6:hover{
+    transform: translateY(-40px);
+}
+.model6 h2 a{
+    text-decoration: none;
+}
+.row2{
+    padding-right: 23px;
+    padding-left: 23px;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.model7{
+    flex-basis: 31%;
+    background-image: url(../HTML/images/7bmw.png);
+    background-size: contain;
+    background-position: center;
+    border-radius: 10px;
+    padding: 25px 10px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 250px;
+    transition: 0.8s;
+}
+.model7 h2{
+    padding-left: 20px;
+    padding-top: 0px;
+}
+.model7:hover{
+    transform: translateY(-40px);
+}
+.model7 h2 a{
+    text-decoration: none;
+}
+.model8{
+    flex-basis: 31%;
+    background-image: url(../HTML/images/8bmw.png);
+    background-size: contain;
+    background-position: center;
+    border-radius: 10px;
+    padding: 25px 10px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 250px;
+    transition: 0.8s;
+}
+.model8 h2{
+    padding-left: 35px;
+    padding-top: 0px;
+}
+.model8:hover{
+    transform: translateY(-40px);
+}
+.model8 h2 a{
+    text-decoration: none;
+}
+.modelz4{
+    flex-basis: 31%;
+    background-image: url(../HTML/images/z4bmw.png);
+    background-size: contain;
+    background-position: center;
+    border-radius: 10px;
+    padding: 25px 10px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 250px;
+    transition: 0.8s;
+}
+.modelz4 h2{
+    padding-left: 50px;
+    padding-top: 0px;
+}
+.modelz4:hover{
+    transform: translateY(-40px);
+}
+.modelz4 h2 a{
+    text-decoration: none;
+}
+.footer{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 0%;
+    color: black;
+}
+.footer h4{
+    padding-top: 1%;
+    font-size: 30px;
+}
+.footer p{
+    padding-top: 0.6%;
+    margin: 5px 0 35px;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding-right: 8%;
+    padding-left: 8%;
+
+
+}
+.omerss .fa{
+    color: darkblue;
+    margin-top: 0 13px;
+    cursor: pointer;
+    padding: 9px;
+}
+.fa-heart-o{
+    color: darkblue;
+}
+.header h1{
+    color: #fff;
+    text-align: center;
+    font-size: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 37%;
+}
+

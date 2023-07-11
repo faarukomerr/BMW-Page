@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bmw5.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>5 Series</title>
+</head>
+<body>
+    <div class="header" id="header">
+        <nav>
+            <a href="home.html"><img src="../HTML/images/BMW_logo_(gray).svg.png" class="logo"></a>
+            <ul>
+                <li><a href="#" id="5sal">5 Series Saloon</a></li>
+                <li><a href="#" id="5tour">5 Series Touring</a></li>
+                <li><a href="#" id="m5">M5 Saloon</a></li>
+                <li><a href="#" id="m5cs">M5 CS</a></li>
+            </ul>
+            <a href="models.html" class="btn">Go Back</a>
+        </nav>
+        <div class="info">
+            <div>
+                <h2 id="hun">7 s</h2>
+                <p>100 km/h</p>
+            </div>
+            <div>
+                <h2 id="Max">245 km/h</h2>
+                <p>Top Speed</p>
+            </div>
+            <div>
+                <h2 id="range">832 km</h2>
+                <p>Max Range</p>
+            </div>
+            <div class="line"></div>
+            <div>
+                <h2 id="model">5 Series Saloon</h2>
+            </div>
+
+        </div>
+    </div>
+    <script>
+
+        var header = document.getElementById("header");
+        var ms = document.getElementById("5sal");
+        var m3 = document.getElementById("5tour");
+        var mx = document.getElementById("m5");
+        var my = document.getElementById("m5cs");
+        var model = document.getElementById("model");
+        var range = document.getElementById("range");
+        var hun = document.getElementById("hun");
+        var Max = document.getElementById("Max");
+        
+
+        ms.onclick = function(){
+            header.style.backgroundImage = "url(../HTML/images/5sall.jpg)"
+            model.innerHTML = "5 Series Saloon"
+            header.style.backgroundImage = "url(../HTML/images/5sall.jpg)"
+            range.innerHTML = "1023 km"
+            header.style.backgroundImage = "url(../HTML/images/5sall.jpg)"
+            hun.innerHTML = "7 s"
+            header.style.backgroundImage = "url(../HTML/images/5sall.jpg)"
+            Max.innerHTML = "245 km/h"
+            
+        }
+        m3.onclick = function(){
+            header.style.backgroundImage = "url(../HTML/images/5tour.jpg)"
+            model.innerHTML = "5 Series Touring"
+            header.style.backgroundImage = "url(../HTML/images/5tour.jpg)"
+            range.innerHTML = "1204 km"
+            header.style.backgroundImage = "url(../HTML/images/5tour.jpg)"
+            hun.innerHTML = "7.7 s"
+            header.style.backgroundImage = "url(../HTML/images/5tour.jpg)"
+            Max.innerHTML = "240 km/h"
+
+        }
+        mx.onclick = function(){
+            header.style.backgroundImage = "url(../HTML/images/m5.jpg)"
+            model.innerHTML = "M5 Saloon"
+            header.style.backgroundImage = "url(../HTML/images/m5.jpg)"
+            range.innerHTML = "532 km"
+            header.style.backgroundImage = "url(../HTML/images/m5.jpg)"
+            hun.innerHTML = "2.7 s"
+            header.style.backgroundImage = "url(../HTML/images/m5.jpg)"
+            Max.innerHTML = "340+ km/h"
+
+
+        }
+        my.onclick = function(){
+            header.style.backgroundImage = "url(../HTML/images/m5cs.jpg)"
+            model.innerHTML = "M5 CS"
+            header.style.backgroundImage = "url(../HTML/images/m5cs.jpg)"
+            range.innerHTML = "499 km"
+            header.style.backgroundImage = "url(../HTML/images/m5cs.jpg)"
+            hun.innerHTML = "2.3 s"
+            header.style.backgroundImage = "url(../HTML/images/m5cs.jpg)"
+            Max.innerHTML = "360 km/h"
+
+        }
+
+
+    
+    </script>
+</body>
+</html>

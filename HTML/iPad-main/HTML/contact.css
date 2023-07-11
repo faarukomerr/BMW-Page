@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Roboto&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+.background{
+    min-height: 60h;
+    width: 100%;
+    background-image: linear-gradient(rgba(17, 5, 24, 0.7),rgba(17, 5, 24, 0.7)), url('../HTML/images/m3csl.jpg');
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150%;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+    vertical-align: top;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #F93E3E;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+}
+.object-size{
+    width: 55px;
+
+}
+.location{
+    width: 80%;    
+    margin: auto;    
+    padding: 80px 0;
+}
+.location iframe{
+    width: 100%;
+    
+}
+.cnt{
+    text-align: center;
+    margin: auto;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    font-size: 176%;
+    color: #fff;
+}
+.contact-us{
+    width: 80%;
+    margin: auto;
+}
+.contact-col{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+.contact-col1{
+    margin-left: 400px;
+    margin-right: 78px;
+    flex-basis: 48%;
+    margin-top: -300px;
+    margin-bottom: px;
+}
+.contact-col div{
+     display: flex;
+     align-items: center;
+     margin-bottom: 40px;
+}
+.contact-col div .fa{
+    font-size: 28px;
+    color: #f44336;
+    margin-right: 30px;
+    margin: 10px;
+}
+.contact-col div p{
+    padding: 0;
+}
+.contact-col div h4{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 400;
+}
+.contact-col input, .contact-col textarea{
+    width: 110%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 12px 34px;
+    font-size: 14px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid #f44321;
+    background: #f44336;
+    transition: 1s;
+}
+.footer{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 0px;
+    color: black;
+}
+.omerss .fa{
+    color: darkblue;
+    margin-top: 0px;
+    cursor: pointer;
+    padding: 9px;
+}
+.fa-heart-o{
+    color: darkblue;
+}
+.footer p{
+    padding-top: 0%;
+    margin: 5px 0 35px;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    padding-right: 8%;
+    padding-left: 8%;
+}

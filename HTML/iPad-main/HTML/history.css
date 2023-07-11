@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Roboto&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+.background{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(36, 44, 73, 0.07),rgba(36, 44, 73, 0.07)), url('../HTML/images/history.jpg');
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    background-attachment: fixed;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150%;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+    vertical-align: top;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+button{
+    background: #fff;
+    height: 30x;
+    width: 60px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+button span{
+    display: block;
+    background: #999;
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #F93E3E;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+}
+.object-size{
+    width: 55px;
+
+}
+.lamp-container{
+    position: absolute;
+    top: -20px;
+    left: 22%;
+    width: 200px;    
+}
+.lamp{
+    width: 50%;
+}
+.light{
+    position: absolute;
+    top: 97%;
+    left: 60%;
+    transform: translateX(-3%);
+    width: 750px;
+    margin-left: -10px;
+}
+
+.journey{
+    display: flex;
+    height: 88%;
+    align-items: center;
+    color: #fff;
+    margin-left: 3%;
+    margin-top: 3%;
+    width: 50%;
+}
+.col{
+    flex-basis: 50%;
+}
+.col h1{
+    font-size: 90px;
+}
+.col p{
+    font-size: 20px;
+    line-height: 26px;
+}
+button{
+    width: 220px;
+    color: #000;
+    font-size: 12px;
+    padding: 15px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+
+.par{
+    margin-top: 240px;
+    font-size: 23px;
+    color: #fff;
+    padding: 10px 15px;
+    margin-left: 2%;
+    margin-right: 2%;
+}   

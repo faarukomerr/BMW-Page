@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../HTML/images/6gt.jpg);
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.369);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding: 0 7%;
+    display: flex;
+    flex-direction: row;
+    transition-duration: 1.32s;
+}
+.logo{
+    padding-left: 30px;
+    margin-left: 3%;
+    padding-top: 20px;
+    width: 100px;
+    cursor: pointer;
+}
+.info{
+    width: 100%;
+    padding: 0 7%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    position: fixed;
+    bottom: 50px;
+    left: 0;
+}
+.info div{
+    margin: 0 20px;
+}
+.info div h2{
+    font-size: 44px;
+    font-weight: 400;
+}
+.info .line{
+    flex: 1%;
+    background: #fff;
+    height: 4px;
+}
+.btn{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px 35px;
+    border-radius: 30px;
+    margin-left: 80%;
+    margin-top: 3%;
+    border: 1px solid #fff;
+    height: 40px;
+
+    
+}

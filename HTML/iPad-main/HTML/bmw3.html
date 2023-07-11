@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bmw3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>3 Series</title>
+</head>
+<body>
+    <div class="header" id="header">
+        <nav>
+            <a href="home.html"><img src="../HTML/images/BMW_logo_(gray).svg.png" class="logo"></a>
+            <ul>
+                <li><a href="#" id="3sal">3 Series Saloon</a></li>
+                <li><a href="#" id="3tour">3 Series Touring</a></li>
+                <li><a href="#" id="m3sal">M3 CS</a></li>
+                <li><a href="#" id="m3tour">M3 Touring</a></li>
+                <li><a href="#" id="m3pa">M3 Competition</a></li>
+            </ul>
+            <a href="models.html" class="btn">Go Back</a>
+        </nav>
+        <div class="info">
+            <div>
+                <h2 id="hun">8 s</h2>
+                <p>100 km/h</p>
+            </div>
+            <div>
+                <h2 id="Max">233 km/h</h2>
+                <p>Top Speed</p>
+            </div>
+            <div>
+                <h2 id="range">832 km</h2>
+                <p>Max Range</p>
+            </div>
+            <div class="line"></div>
+            <div>
+                <h2 id="model">3 Series Saloon</h2>
+            </div>
+
+        </div>
+    </div>
+    <script>
+
+        var header = document.getElementById("header");
+        var ms = document.getElementById("3sal");
+        var m3 = document.getElementById("3tour");
+        var mx = document.getElementById("m3sal");
+        var my = document.getElementById("m3tour");
+        var mz = document.getElementById("m3pa")
+        var model = document.getElementById("model");
+        var range = document.getElementById("range");
+        var hun = document.getElementById("hun");
+        var Max = document.getElementById("Max");
+        
+
+        ms.onclick = function(){
+            header.style.backgroundImage = "url(../HTML/images/3sal.jpg)"
+            model.innerHTML = "3 Series Saloon"
+            header.style.backgroundImage = "url(../HTML/images/3sal.jpg)"
+            range.innerHTML = "832 km"
+            header.style.backgroundImage = "url(../HTML/images/3sal.jpg)"
+            hun.innerHTML = "8 s"
+            header.style.backgroundImage = "url(../HTML/images/3sal.jpg)"
+            Max.innerHTML = "233 km/h"
+            
+        }
+        m3.onclick = function(){
+            header.style.backgroundImage = "url(../HTML/images/3tour.jpg)"
+            model.innerHTML = "3 Series Touring"
+            header.style.backgroundImage = "url(../HTML/images/3tour.jpg)"
+            range.innerHTML = "850 km"
+            header.style.backgroundImage = "url(../HTML/images/3tour.jpg)"
+            hun.innerHTML = "7.7 s"
+            header.style.backgroundImage = "url(../HTML/images/3tour.jpg)"
+            Max.innerHTML = "245 km/h"
+
+        }
+        mx.onclick = function(){
+            header.style.backgroundImage = "url(../HTML/images/m3sa.jpg)"
+            model.innerHTML = "M3 CS"
+            header.style.backgroundImage = "url(../HTML/images/m3sa.jpg)"
+            range.innerHTML = "648 km"
+            header.style.backgroundImage = "url(../HTML/images/m3sa.jpg)"
+            hun.innerHTML = "2.8 s"
+            header.style.backgroundImage = "url(../HTML/images/m3sa.jpg)"
+            Max.innerHTML = "345 km/h"
+
+
+        }
+        my.onclick = function(){
+            header.style.backgroundImage = "url(../HTML/images/m3tourr.jpg)"
+            model.innerHTML = "M3 Touring"
+            header.style.backgroundImage = "url(../HTML/images/m3tourr.jpg)"
+            range.innerHTML = "703 km"
+            header.style.backgroundImage = "url(../HTML/images/m3tourr.jpg)"
+            hun.innerHTML = "3.2 s"
+            header.style.backgroundImage = "url(../HTML/images/m3tourr.jpg)"
+            Max.innerHTML = "333 km/h"
+
+        }
+        mz.onclick = function(){
+            header.style.backgroundImage = "url(../HTML/images/m3pa.jpg)"
+            model.innerHTML = "M3 Competition"
+            header.style.backgroundImage = "url(../HTML/images/m3pa.jpg)"
+            range.innerHTML = "876 km"
+            header.style.backgroundImage = "url(../HTML/images/m3pa.jpg)"
+            hun.innerHTML = "3.6 s"
+            header.style.backgroundImage = "url(../HTML/images/m3pa.jpg)"
+            Max.innerHTML = "332 km/h"
+        }
+
+
+    
+    </script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bmw8.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>8 Series</title>
+</head>
+<body>
+    <div class="header" id="header">
+        <nav>
+            <a href="home.html"><img src="../HTML/images/BMW_logo_(gray).svg.png" class="logo"></a>
+            <ul>
+                <li><a href="#" id="8gc">8 Gran Coupe</a></li>
+                <li><a href="#" id="8c">8 Series Coupe</a></li>
+                <li><a href="#" id="8cab">8 Convertible</a></li>
+                <li><a href="#" id="m8">M8 Competition</a></li>
+                <li><a href="#" id="m8cab">M8 Convertible</a></li>
+            </ul>
+            <a href="models.html" class="btn">Go Back</a>
+        </nav>
+        <div class="info">
+            <div>
+                <h2 id="hun">5.3 s</h2>
+                <p>100 km/h</p>
+            </div>
+            <div>
+                <h2 id="Max">250 km/h</h2>
+                <p>Top Speed</p>
+            </div>
+            <div>
+                <h2 id="range">1298 km</h2>
+                <p>Max Range</p>
+            </div>
+            <div class="line"></div>
+            <div>
+                <h2 id="model">8 Gran Coupe</h2>
+            </div>
+
+        </div>
+    </div>
+    <script>
+
+        var header = document.getElementById("header");
+        var ms = document.getElementById("8gc");
+        var m3 = document.getElementById("8c");
+        var mx = document.getElementById("8cab");
+        var my = document.getElementById("m8");
+        var mz = document.getElementById("m8cab")
+        var model = document.getElementById("model");
+        var range = document.getElementById("range");
+        var hun = document.getElementById("hun");
+        var Max = document.getElementById("Max");
+        
+
+        ms.onclick = function(){
+            header.style.backgroundImage = "url(../HTML/images/8gg.jpg)"
+            model.innerHTML = "8 Gran Coupe"
+            header.style.backgroundImage = "url(../HTML/images/8gg.jpg)"
+            range.innerHTML = "1298 km"
+            header.style.backgroundImage = "url(../HTML/images/8gg.jpg)"
+            hun.innerHTML = "5.3 s"
+            header.style.backgroundImage = "url(../HTML/images/8gg.jpg)"
+            Max.innerHTML = "250 km/h"
+            
+        }
+        m3.onclick = function(){
+            header.style.backgroundImage = "url(../HTML/images/8c.jpg)"
+            model.innerHTML = "8 Series Coupe"
+            header.style.backgroundImage = "url(../HTML/images/8c.jpg)"
+            range.innerHTML = "1288 km"
+            header.style.backgroundImage = "url(../HTML/images/8c.jpg)"
+            hun.innerHTML = "5.4 s"
+            header.style.backgroundImage = "url(../HTML/images/8c.jpg)"
+            Max.innerHTML = "250 km/h"
+
+        }
+        mx.onclick = function(){
+            header.style.backgroundImage = "url(../HTML/images/8cab.jpg)"
+            model.innerHTML = "8 Convertible" 
+            header.style.backgroundImage = "url(../HTML/images/8cab.jpg)"
+            range.innerHTML = "1288 km"
+            header.style.backgroundImage = "url(../HTML/images/8cab.jpg)"
+            hun.innerHTML = "5.4 s"
+            header.style.backgroundImage = "url(../HTML/images/8cab.jpg)"
+            Max.innerHTML = "310 km/h"
+
+
+        }
+        my.onclick = function(){
+            header.style.backgroundImage = "url(../HTML/images/m8comp.jpg)"
+            model.innerHTML = "M8 "
+            header.style.backgroundImage = "url(../HTML/images/m8comp.jpg)"
+            range.innerHTML = "687 km"
+            header.style.backgroundImage = "url(../HTML/images/m8comp.jpg)"
+            hun.innerHTML = "3.2 s"
+            header.style.backgroundImage = "url(../HTML/images/m8comp.jpg)"
+            Max.innerHTML = "340 km/h"
+
+        }
+        mz.onclick = function(){
+            header.style.backgroundImage = "url(../HTML/images/m8cab.jpg)"
+            model.innerHTML = "M8 Convertible"
+            header.style.backgroundImage = "url(../HTML/images/m8cab.jpg)"
+            range.innerHTML = "672 km"
+            header.style.backgroundImage = "url(../HTML/images/m8cab.jpg)"
+            hun.innerHTML = "3.3 s"
+            header.style.backgroundImage = "url(../HTML/images/m8cab.jpg)"
+            Max.innerHTML = "340 km/h"
+        }
+
+
+    
+    </script>
+    
+</body>
+</html>
